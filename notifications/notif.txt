@@ -6,7 +6,7 @@ ChatID: -1002128870098
 
 curl -s https://api.telegram.org/bot6928896968:AAFoUMHXoIFANndRYd5vQcxGtGNZTJRU3aw/getUpdates
 curl -X POST -H 'Content-Type: application/json' -d '{"chat_id": "-1002128870098","text": "This is a test from curl", "disable_notification": true}' https://api.telegram.org/bot6928896968:AAFoUMHXoIFANndRYd5vQcxGtGNZTJRU3aw
-java "-DconfigFile=notifications/config.json" -jar /home/user/IdeaProjects/wb_ui/notifications/allure-notifications-4.6.1.jar
+java "-DconfigFile=notifications/config.json" -jar /home/user/IdeaProjects/wb/notifications/allure-notifications-4.6.1.jar
 java "-DconfigFile=notifications/config.json" -jar notifications/allure-notifications-4.2.1.jar
 java -jar notifications/allure-notifications-4.2.1.jar -DconfigFile=notifications/config.json
 java -jar "-DconfigFile=notifications/config.json" notifications/allure-notifications-4.2.1.jar
