@@ -52,7 +52,7 @@ tasks.test {
     systemProperties(System.getProperties())
 
 }
-task first(type: Test) {
+task smoke(type: Test) {
     useJUnitPlatform {
         includeTags("smoke")
     }

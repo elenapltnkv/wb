@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="wildberriesSearch.basetest.SearchPositiveTest" tests="5" skipped="0" failures="1" errors="0" timestamp="2024-03-22T12:27:20" hostname="user" time="20.336">
+  <properties/>
+  <testcase name="cleanSearchNoAuthorizedUser()" classname="wildberriesSearch.basetest.SearchPositiveTest" time="3.237"/>
+  <testcase name="photoSearchNoAuthorizedUser()" classname="wildberriesSearch.basetest.SearchPositiveTest" time="7.431">
+    <failure message="Element not found {#c183876708 .product-card__name}&#10;Expected: text &quot;/ Мягкая игрушка реалистичная собака Бигль подарок детям&quot;&#10;Screenshot: file:/home/user/IdeaProjects/wb/build/reports/tests/1711110449409.1.png&#10;Page source: file:/home/user/IdeaProjects/wb/build/reports/tests/1711110449409.1.html&#10;Timeout: 4 s.&#10;Caused by: NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;#c183876708 .product-card__name&quot;}" type="com.codeborne.selenide.ex.ElementNotFound">Element not found {#c183876708 .product-card__name}
+Expected: text &quot;/ Мягкая игрушка реалистичная собака Бигль подарок детям&quot;
+Screenshot: file:/home/user/IdeaProjects/wb/build/reports/tests/1711110449409.1.png
+Page source: file:/home/user/IdeaProjects/wb/build/reports/tests/1711110449409.1.html
+Timeout: 4 s.
+Caused by: NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;#c183876708 .product-card__name&quot;}
+	at app//com.codeborne.selenide.impl.WebElementSource.createElementNotFoundError(WebElementSource.java:91)
+	at app//com.codeborne.selenide.impl.ElementFinder.createElementNotFoundError(ElementFinder.java:142)
+	at app//com.codeborne.selenide.impl.WebElementSource.handleError(WebElementSource.java:143)
+	at app//com.codeborne.selenide.impl.WebElementSource.checkConditionAndReturnElement(WebElementSource.java:127)
+	at app//com.codeborne.selenide.impl.WebElementSource.checkCondition(WebElementSource.java:104)
+	at app//com.codeborne.selenide.commands.Should.execute(Should.java:30)
+	at app//com.codeborne.selenide.commands.Should.execute(Should.java:14)
+	at app//com.codeborne.selenide.commands.Commands.execute(Commands.java:161)
+	at app//com.codeborne.selenide.impl.SelenideElementProxy.dispatchAndRetry(SelenideElementProxy.java:132)
+	at app//com.codeborne.selenide.impl.SelenideElementProxy.invoke(SelenideElementProxy.java:84)
+	at app/jdk.proxy3/jdk.proxy3.$Proxy19.shouldHave(Unknown Source)
+	at app//wildberriesSearch.basetest.SearchPositiveTest.photoSearchNoAuthorizedUser(SearchPositiveTest.java:38)
+	at java.base@17.0.2/java.lang.reflect.Method.invoke(Method.java:568)
+	at java.base@17.0.2/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base@17.0.2/java.util.ArrayList.forEach(ArrayList.java:1511)
+Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;#c183876708 .product-card__name&quot;}
+  (Session info: chrome=95.0.4638.54)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.16.1', revision: '9b4c83354e'
+System info: os.name: 'Linux', os.arch: 'amd64', os.version: '6.5.0-26-generic', java.version: '17.0.2'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [744578338aa334cfbb3dce32c3730c17, findElement {using=css selector, value=#c183876708 .product-card__name}]
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 95.0.4638.54, chrome: {chromedriverVersion: 95.0.4638.17 (a9d0719444d4b..., userDataDir: /tmp/.com.google.Chrome.J7ATVE}, goog:chromeOptions: {debuggerAddress: localhost:45985}, networkConnectionEnabled: false, pageLoadStrategy: eager, platformName: linux, proxy: Proxy(), se:cdp: ws://45.9.40.101:4445/devto..., setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: accept, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 744578338aa334cfbb3dce32c3730c17
+	at jdk.internal.reflect.GeneratedConstructorAccessor12.newInstance(Unknown Source)
+	at java.base@17.0.2/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base@17.0.2/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base@17.0.2/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at app//org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at app//org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at app//org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+	at app//org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+	at app//org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:523)
+	at app//org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at app//org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at app//org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:360)
+	at app//org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:354)
+	at app//com.codeborne.selenide.impl.WebElementSelector.findElement(WebElementSelector.java:70)
+	at app//com.codeborne.selenide.impl.WebElementSelector.findElement(WebElementSelector.java:44)
+	at app//com.codeborne.selenide.impl.WebElementSelector.findElement(WebElementSelector.java:33)
+	at app//com.codeborne.selenide.impl.ElementFinder.getWebElement(ElementFinder.java:122)
+	at app//com.codeborne.selenide.impl.WebElementSource.checkConditionAndReturnElement(WebElementSource.java:116)
+	... 11 more
+</failure>
+  </testcase>
+  <testcase name="textSearchNoAuthorizedUser()" classname="wildberriesSearch.basetest.SearchPositiveTest" time="3.121"/>
+  <testcase name="articulSearchNoAuthorizedUser()" classname="wildberriesSearch.basetest.SearchPositiveTest" time="3.258"/>
+  <testcase name="longTextSearchNoAuthorizedUser()" classname="wildberriesSearch.basetest.SearchPositiveTest" time="3.258"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[[Test worker] INFO com.codeborne.selenide.impl.WebDriverThreadLocalContainer - No webdriver is bound to current thread: 1 - let's create a new webdriver
+[Test worker] INFO com.codeborne.selenide.webdriver.WebDriverFactory - BrowserName=chrome Version=95.0.4638.54 Platform=linux
+[Test worker] INFO com.codeborne.selenide.webdriver.WebDriverFactory - Selenide v. 7.0.4
+[Test worker] INFO com.codeborne.selenide.webdriver.WebDriverFactory - Selenium WebDriver v. 4.16.1 build revision: 9b4c83354e
+[Test worker] INFO com.codeborne.selenide.drivercommands.CreateDriverCommand - Created webdriver in thread 1: RemoteWebDriver -> RemoteWebDriver: chrome on linux (d83f3eb01eab235799c8dd3c27b6f597), downloadsFolder: null
+[Test worker] INFO com.codeborne.selenide.drivercommands.DisposablesRegistry - Register WebDriverInstance[config=StaticConfig, webDriver=RemoteWebDriver: chrome on linux (d83f3eb01eab235799c8dd3c27b6f597), proxy=null, downloadsFolder=null] in 1 [size=1]
+[Test worker] INFO com.codeborne.selenide.drivercommands.CloseDriverCommand - Close webdriver: 1 -> RemoteWebDriver: chrome on linux (d83f3eb01eab235799c8dd3c27b6f597)...
+[Test worker] INFO com.codeborne.selenide.drivercommands.CloseDriverCommand - Closed webdriver 1 in 70 ms
+[Test worker] INFO com.codeborne.selenide.drivercommands.DisposablesRegistry - Unregister WebDriverInstance[config=StaticConfig, webDriver=RemoteWebDriver: chrome on linux (null), proxy=null, downloadsFolder=null] in 1 [size=0]
+[Test worker] INFO com.codeborne.selenide.impl.WebDriverThreadLocalContainer - No webdriver is bound to current thread: 1 - let's create a new webdriver
+[Test worker] INFO com.codeborne.selenide.webdriver.WebDriverFactory - BrowserName=chrome Version=95.0.4638.54 Platform=linux
+[Test worker] INFO com.codeborne.selenide.webdriver.WebDriverFactory - Selenide v. 7.0.4
+[Test worker] INFO com.codeborne.selenide.webdriver.WebDriverFactory - Selenium WebDriver v. 4.16.1 build revision: 9b4c83354e
+[Test worker] INFO com.codeborne.selenide.drivercommands.CreateDriverCommand - Created webdriver in thread 1: RemoteWebDriver -> RemoteWebDriver: chrome on linux (744578338aa334cfbb3dce32c3730c17), downloadsFolder: null
+[Test worker] INFO com.codeborne.selenide.drivercommands.DisposablesRegistry - Register WebDriverInstance[config=StaticConfig, webDriver=RemoteWebDriver: chrome on linux (744578338aa334cfbb3dce32c3730c17), proxy=null, downloadsFolder=null] in 1 [size=1]
+[Test worker] INFO com.codeborne.selenide.drivercommands.CloseDriverCommand - Close webdriver: 1 -> RemoteWebDriver: chrome on linux (744578338aa334cfbb3dce32c3730c17)...
+[Test worker] INFO com.codeborne.selenide.drivercommands.CloseDriverCommand - Closed webdriver 1 in 70 ms
+[Test worker] INFO com.codeborne.selenide.drivercommands.DisposablesRegistry - Unregister WebDriverInstance[config=StaticConfig, webDriver=RemoteWebDriver: chrome on linux (null), proxy=null, downloadsFolder=null] in 1 [size=0]
+[Test worker] INFO com.codeborne.selenide.impl.WebDriverThreadLocalContainer - No webdriver is bound to current thread: 1 - let's create a new webdriver
+[Test worker] INFO com.codeborne.selenide.webdriver.WebDriverFactory - BrowserName=chrome Version=95.0.4638.54 Platform=linux
+[Test worker] INFO com.codeborne.selenide.webdriver.WebDriverFactory - Selenide v. 7.0.4
+[Test worker] INFO com.codeborne.selenide.webdriver.WebDriverFactory - Selenium WebDriver v. 4.16.1 build revision: 9b4c83354e
+[Test worker] INFO com.codeborne.selenide.drivercommands.CreateDriverCommand - Created webdriver in thread 1: RemoteWebDriver -> RemoteWebDriver: chrome on linux (26588cd0b77d110addfa23b4e7c5d69a), downloadsFolder: null
+[Test worker] INFO com.codeborne.selenide.drivercommands.DisposablesRegistry - Register WebDriverInstance[config=StaticConfig, webDriver=RemoteWebDriver: chrome on linux (26588cd0b77d110addfa23b4e7c5d69a), proxy=null, downloadsFolder=null] in 1 [size=1]
+[Test worker] INFO com.codeborne.selenide.drivercommands.CloseDriverCommand - Close webdriver: 1 -> RemoteWebDriver: chrome on linux (26588cd0b77d110addfa23b4e7c5d69a)...
+[Test worker] INFO com.codeborne.selenide.drivercommands.CloseDriverCommand - Closed webdriver 1 in 70 ms
+[Test worker] INFO com.codeborne.selenide.drivercommands.DisposablesRegistry - Unregister WebDriverInstance[config=StaticConfig, webDriver=RemoteWebDriver: chrome on linux (null), proxy=null, downloadsFolder=null] in 1 [size=0]
+[Test worker] INFO com.codeborne.selenide.impl.WebDriverThreadLocalContainer - No webdriver is bound to current thread: 1 - let's create a new webdriver
+[Test worker] INFO com.codeborne.selenide.webdriver.WebDriverFactory - BrowserName=chrome Version=95.0.4638.54 Platform=linux
+[Test worker] INFO com.codeborne.selenide.webdriver.WebDriverFactory - Selenide v. 7.0.4
+[Test worker] INFO com.codeborne.selenide.webdriver.WebDriverFactory - Selenium WebDriver v. 4.16.1 build revision: 9b4c83354e
+[Test worker] INFO com.codeborne.selenide.drivercommands.CreateDriverCommand - Created webdriver in thread 1: RemoteWebDriver -> RemoteWebDriver: chrome on linux (c82d9975e16d86c7e50f48bdf8cfed14), downloadsFolder: null
+[Test worker] INFO com.codeborne.selenide.drivercommands.DisposablesRegistry - Register WebDriverInstance[config=StaticConfig, webDriver=RemoteWebDriver: chrome on linux (c82d9975e16d86c7e50f48bdf8cfed14), proxy=null, downloadsFolder=null] in 1 [size=1]
+[Test worker] INFO com.codeborne.selenide.drivercommands.CloseDriverCommand - Close webdriver: 1 -> RemoteWebDriver: chrome on linux (c82d9975e16d86c7e50f48bdf8cfed14)...
+[Test worker] INFO com.codeborne.selenide.drivercommands.CloseDriverCommand - Closed webdriver 1 in 69 ms
+[Test worker] INFO com.codeborne.selenide.drivercommands.DisposablesRegistry - Unregister WebDriverInstance[config=StaticConfig, webDriver=RemoteWebDriver: chrome on linux (null), proxy=null, downloadsFolder=null] in 1 [size=0]
+[Test worker] INFO com.codeborne.selenide.impl.WebDriverThreadLocalContainer - No webdriver is bound to current thread: 1 - let's create a new webdriver
+[Test worker] INFO com.codeborne.selenide.webdriver.WebDriverFactory - BrowserName=chrome Version=95.0.4638.54 Platform=linux
+[Test worker] INFO com.codeborne.selenide.webdriver.WebDriverFactory - Selenide v. 7.0.4
+[Test worker] INFO com.codeborne.selenide.webdriver.WebDriverFactory - Selenium WebDriver v. 4.16.1 build revision: 9b4c83354e
+[Test worker] INFO com.codeborne.selenide.drivercommands.CreateDriverCommand - Created webdriver in thread 1: RemoteWebDriver -> RemoteWebDriver: chrome on linux (96b447f36bd56106950c476bfdd6ba63), downloadsFolder: null
+[Test worker] INFO com.codeborne.selenide.drivercommands.DisposablesRegistry - Register WebDriverInstance[config=StaticConfig, webDriver=RemoteWebDriver: chrome on linux (96b447f36bd56106950c476bfdd6ba63), proxy=null, downloadsFolder=null] in 1 [size=1]
+[Test worker] INFO com.codeborne.selenide.drivercommands.CloseDriverCommand - Close webdriver: 1 -> RemoteWebDriver: chrome on linux (96b447f36bd56106950c476bfdd6ba63)...
+[Test worker] INFO com.codeborne.selenide.drivercommands.CloseDriverCommand - Closed webdriver 1 in 69 ms
+[Test worker] INFO com.codeborne.selenide.drivercommands.DisposablesRegistry - Unregister WebDriverInstance[config=StaticConfig, webDriver=RemoteWebDriver: chrome on linux (null), proxy=null, downloadsFolder=null] in 1 [size=0]
+]]></system-err>
+</testsuite>
