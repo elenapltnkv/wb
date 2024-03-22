@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="wildberriesSearch.SearchPositiveStepsTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2024-03-21T15:34:07" hostname="user" time="6.631">
+<testsuite name="wildberriesSearch.SearchPositiveStepsTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2024-03-21T16:48:56" hostname="user" time="8.058">
   <properties/>
-  <testcase name="Проверить поиск по артикулу" classname="wildberriesSearch.SearchPositiveStepsTest" time="3.548"/>
-  <testcase name="Проверить простой поиск" classname="wildberriesSearch.SearchPositiveStepsTest" time="3.073"/>
+  <testcase name="Проверить поиск по артикулу" classname="wildberriesSearch.SearchPositiveStepsTest" time="4.118"/>
+  <testcase name="Проверить простой поиск" classname="wildberriesSearch.SearchPositiveStepsTest" time="3.916"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[[Test worker] INFO com.codeborne.selenide.impl.WebDriverThreadLocalContainer - No webdriver is bound to current thread: 1 - let's create a new webdriver
 [Test worker] INFO com.codeborne.selenide.webdriver.WebDriverFactory - BrowserName=chrome Version=95.0.4638.54 Platform=linux
 [Test worker] INFO com.codeborne.selenide.webdriver.WebDriverFactory - Selenide v. 7.0.4
 [Test worker] INFO com.codeborne.selenide.webdriver.WebDriverFactory - Selenium WebDriver v. 4.16.1 build revision: 9b4c83354e
-[Test worker] INFO com.codeborne.selenide.drivercommands.CreateDriverCommand - Created webdriver in thread 1: RemoteWebDriver -> RemoteWebDriver: chrome on linux (4089cb8ac7a559487abeec89a24aa045), downloadsFolder: null
-[Test worker] INFO com.codeborne.selenide.drivercommands.DisposablesRegistry - Register WebDriverInstance[config=StaticConfig, webDriver=RemoteWebDriver: chrome on linux (4089cb8ac7a559487abeec89a24aa045), proxy=null, downloadsFolder=null] in 1 [size=1]
-[Test worker] INFO com.codeborne.selenide.drivercommands.CloseDriverCommand - Close webdriver: 1 -> RemoteWebDriver: chrome on linux (4089cb8ac7a559487abeec89a24aa045)...
-[Test worker] INFO com.codeborne.selenide.drivercommands.CloseDriverCommand - Closed webdriver 1 in 71 ms
+[Test worker] INFO com.codeborne.selenide.drivercommands.CreateDriverCommand - Created webdriver in thread 1: RemoteWebDriver -> RemoteWebDriver: chrome on linux (63451085cff37b5c639ce2c91441fe64), downloadsFolder: null
+[Test worker] INFO com.codeborne.selenide.drivercommands.DisposablesRegistry - Register WebDriverInstance[config=StaticConfig, webDriver=RemoteWebDriver: chrome on linux (63451085cff37b5c639ce2c91441fe64), proxy=null, downloadsFolder=null] in 1 [size=1]
+[Test worker] INFO com.codeborne.selenide.drivercommands.CloseDriverCommand - Close webdriver: 1 -> RemoteWebDriver: chrome on linux (63451085cff37b5c639ce2c91441fe64)...
+[Test worker] INFO com.codeborne.selenide.drivercommands.CloseDriverCommand - Closed webdriver 1 in 72 ms
 [Test worker] INFO com.codeborne.selenide.drivercommands.DisposablesRegistry - Unregister WebDriverInstance[config=StaticConfig, webDriver=RemoteWebDriver: chrome on linux (null), proxy=null, downloadsFolder=null] in 1 [size=0]
 [Test worker] INFO com.codeborne.selenide.impl.WebDriverThreadLocalContainer - No webdriver is bound to current thread: 1 - let's create a new webdriver
 [Test worker] INFO com.codeborne.selenide.webdriver.WebDriverFactory - BrowserName=chrome Version=95.0.4638.54 Platform=linux
 [Test worker] INFO com.codeborne.selenide.webdriver.WebDriverFactory - Selenide v. 7.0.4
 [Test worker] INFO com.codeborne.selenide.webdriver.WebDriverFactory - Selenium WebDriver v. 4.16.1 build revision: 9b4c83354e
-[Test worker] INFO com.codeborne.selenide.drivercommands.CreateDriverCommand - Created webdriver in thread 1: RemoteWebDriver -> RemoteWebDriver: chrome on linux (90099b41ab8351dde4f7f00311b29a2b), downloadsFolder: null
-[Test worker] INFO com.codeborne.selenide.drivercommands.DisposablesRegistry - Register WebDriverInstance[config=StaticConfig, webDriver=RemoteWebDriver: chrome on linux (90099b41ab8351dde4f7f00311b29a2b), proxy=null, downloadsFolder=null] in 1 [size=1]
-[Test worker] INFO com.codeborne.selenide.drivercommands.CloseDriverCommand - Close webdriver: 1 -> RemoteWebDriver: chrome on linux (90099b41ab8351dde4f7f00311b29a2b)...
+[Test worker] INFO com.codeborne.selenide.drivercommands.CreateDriverCommand - Created webdriver in thread 1: RemoteWebDriver -> RemoteWebDriver: chrome on linux (74c2873c7b2c6c715be64e83c5328fe4), downloadsFolder: null
+[Test worker] INFO com.codeborne.selenide.drivercommands.DisposablesRegistry - Register WebDriverInstance[config=StaticConfig, webDriver=RemoteWebDriver: chrome on linux (74c2873c7b2c6c715be64e83c5328fe4), proxy=null, downloadsFolder=null] in 1 [size=1]
+[Test worker] INFO com.codeborne.selenide.drivercommands.CloseDriverCommand - Close webdriver: 1 -> RemoteWebDriver: chrome on linux (74c2873c7b2c6c715be64e83c5328fe4)...
 [Test worker] INFO com.codeborne.selenide.drivercommands.CloseDriverCommand - Closed webdriver 1 in 70 ms
 [Test worker] INFO com.codeborne.selenide.drivercommands.DisposablesRegistry - Unregister WebDriverInstance[config=StaticConfig, webDriver=RemoteWebDriver: chrome on linux (null), proxy=null, downloadsFolder=null] in 1 [size=0]
 ]]></system-err>
