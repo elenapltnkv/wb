@@ -1,0 +1,1 @@
+{"uuid":"1fed0faf-9dd0-452e-9492-7eda0574f68d","name":"SearchNegativeStepsTest","children":["6aba006f-e2cf-4dcf-8b30-9d78c91cb05b"],"befores":[{"name":"openPage","status":"passed","stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1711104325263,"stop":1711104325290}],"afters":[],"start":1711104325196,"stop":1711104332037}

@@ -85,7 +85,7 @@ gradle clean smoke
 После выполнения сборки, в блоке <code><strong>*История сборок*</strong></code> напротив номера сборки появится
 значок *Allure Report* кликнув по которому, откроется страница с сформированным html-отчетом и тестовой документацией.
 
-## <img width="4%" title="Allure Report" src="/home/user/IdeaProjects/wb/images/logo/Allure.svg"> Отчет о результатах тестирования в [Allure Report](http://45.9.40.101:8888/job/wb/179/allure/)
+## <img width="4%" title="Allure Report" src="images/logo/Allure.svg"> Отчет о результатах тестирования в [Allure Report](http://45.9.40.101:8888/job/wb/179/allure/)
 
 <p align="center">
   <img src="images/screenshots/2024-03-21_11-58.png" alt="allure-report" width="900">
