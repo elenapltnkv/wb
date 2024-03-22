@@ -39,6 +39,13 @@
 - Проверка поиска по артиклу
 - Проверка очистки строки поиска
 
+## :heavy_check_mark: Негативные тест кейсы поиска товара
+
+- Проверка поиска ввода пробелов в поисковой строке
+- Проверка поиска текста в другой раскладке
+- Проверка поиска по загруженному файлу PDF
+- Проверка поиска по несуществующему артиклу
+
 ## :computer: Запуск тестов из терминала
 
 ### :house_with_garden:	Локальный запуск тестов
@@ -66,15 +73,11 @@ gradle clean smoke
 ### Для запуска удаленных тестов необходимо заполнить remote.properties или передать значение:
 
 * browser (браузер, по умолчанию chrome)
-* browserVersion (версия браузера, по умолчанию 100.0)
+* browserVersion (версия браузера, по умолчанию 121.0)
 * browserSize (размер окна браузера, по умолчанию 1920x1080)
 * remoteDriverUrl (url адрес selenoid)
-* videoStorage (url адрес с видео прохождения тестов)
 
-Логин и пароль извлекаются из соответствующего файла конфигурации:
-```bash
-./resources/config/credentials.properties
-```
+
 ## <img width="4%" title="Jenkins" src="images/logo/Jenkins.svg"> Запуск тестов из [Jenkins](http://45.9.40.101:8888)
 Для запуска сборки необходимо перейти в раздел <code><strong>*Собрать с параметрами*</strong></code> и нажать кнопку <code><strong>*Собрать*</strong></code>.
 
@@ -100,7 +103,9 @@ gradle clean smoke
 <p align="center">
   <img src="images/screenshots/2024-03-21_11-59_1.png" alt="dashboard" width="900">
 </p>
-
+<p align="center">
+  <img src="images/screenshots/fullScreen.png" alt="dashboard" width="900">
+</p>
 
 ## <img width="4%" title="Telegram" src="images/logo/Telegram.svg"> Уведомления в Telegram
 После завершения сборки специальный бот, созданный в <code>Telegram</code>, автоматически обрабатывает и отправляет сообщение с отчетом о прогоне тестов.
@@ -108,10 +113,3 @@ gradle clean smoke
 <p align="center">
 <img title="Telegram Notifications" src="images/screenshots/2024-03-21_12-01.png">
 
-## :movie_camera: Видео с прогоном тестов
-
-В отчетах Allure для каждого теста прикреплен не только скриншот, но и видео прохождения теста
-
-<p align="center">
-  <img title="Video" src="media/video/Lamoda_tests.gif">
-</p>
