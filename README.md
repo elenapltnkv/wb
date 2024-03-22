@@ -75,7 +75,7 @@ gradle clean smoke
 ```bash
 ./resources/config/credentials.properties
 ```
-## <img width="4%" title="Jenkins" src="media/logo/Jenkins.svg"> Запуск тестов из [Jenkins](https://jenkins.autotests.cloud/job/015_aziyatdinov_final_ui/)
+## <img width="4%" title="Jenkins" src="images/logo/Jenkins.svg"> Запуск тестов из [Jenkins](http://45.9.40.101:8888)
 Для запуска сборки необходимо перейти в раздел <code><strong>*Собрать с параметрами*</strong></code> и нажать кнопку <code><strong>*Собрать*</strong></code>.
 
 <p align="center">
@@ -85,28 +85,28 @@ gradle clean smoke
 После выполнения сборки, в блоке <code><strong>*История сборок*</strong></code> напротив номера сборки появится
 значок *Allure Report* кликнув по которому, откроется страница с сформированным html-отчетом и тестовой документацией.
 
-## <img width="4%" title="Allure Report" src="media/logo/Allure_Report.svg"> Отчет о результатах тестирования в [Allure Report](http://45.9.40.101:8888/job/wb/179/allure/)
+## <img width="4%" title="Allure Report" src="/home/user/IdeaProjects/wb/images/logo/Allure.svg"> Отчет о результатах тестирования в [Allure Report](http://45.9.40.101:8888/job/wb/179/allure/)
 
 <p align="center">
-  <img src="/home/user/IdeaProjects/wb/images/screenshots/2024-03-21_11-58.png" alt="allure-report" width="900">
+  <img src="images/screenshots/2024-03-21_11-58.png" alt="allure-report" width="900">
 </p>
 
 <p align="center">
-  <img src="/home/user/IdeaProjects/wb/images/screenshots/2024-03-21_11-59.png" alt="allure-report_1" width="900">
+  <img src="images/screenshots/2024-03-21_11-59.png" alt="allure-report_1" width="900">
 </p>
 
 ### Основной дашборд
 
 <p align="center">
-  <img src="/home/user/IdeaProjects/wb/images/screenshots/2024-03-21_11-59_1.png" alt="dashboard" width="900">
+  <img src="images/screenshots/2024-03-21_11-59_1.png" alt="dashboard" width="900">
 </p>
 
 
-## <img width="4%" title="Telegram" src="media/logo/Telegram.svg"> Уведомления в Telegram
+## <img width="4%" title="Telegram" src="images/logo/Telegram.svg"> Уведомления в Telegram
 После завершения сборки специальный бот, созданный в <code>Telegram</code>, автоматически обрабатывает и отправляет сообщение с отчетом о прогоне тестов.
 
 <p align="center">
-<img title="Telegram Notifications" src="/home/user/IdeaProjects/wb/images/screenshots/2024-03-21_12-01.png">
+<img title="Telegram Notifications" src="images/screenshots/2024-03-21_12-01.png">
 
 ## :movie_camera: Видео с прогоном тестов
 
