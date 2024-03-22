@@ -1,3 +1,0 @@
-[2024-03-22T12:27:25.757Z] [SEVERE] https://www.wildberries.ru/ - Access to fetch at 'https://search-by-photo.wb.ru/uploadsearch' from origin 'https://www.wildberries.ru' has been blocked by CORS policy: Response to preflight request doesn't pass access control check: No 'Access-Control-Allow-Origin' header is present on the requested resource. If an opaque response serves your needs, set the request's mode to 'no-cors' to fetch the resource with CORS disabled.
-[2024-03-22T12:27:25.757Z] [SEVERE] https://search-by-photo.wb.ru/uploadsearch - Failed to load resource: net::ERR_FAILED
-[2024-03-22T12:27:25.757Z] [SEVERE] https://static-basket-01.wbbasket.ru/vol0/j/spa/services/searchByImage/searchByImageService.min.2a349abbe304d4ac.js 7:1913 NetworkError

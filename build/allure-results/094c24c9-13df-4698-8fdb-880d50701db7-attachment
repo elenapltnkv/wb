@@ -1,1 +1,0 @@
-[2024-03-22T12:26:49.016Z] [SEVERE] https://static-basket-01.wbbasket.ru/vol0/j/spa/models/searchByImage.min.c74d0f8cee66ca98.js 1:2522 Uncaught TypeError: Cannot read properties of null (reading 'foundByImage')
