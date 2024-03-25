@@ -116,7 +116,7 @@ gradle clean smoke
 <a id="video"></a>
 ## <img src="images/logo/Selenoid.svg" width="25" height="25"/></a> Пример прогона теста в Selenoid
 
-> Видео к прохождению теста "Добавление игры в корзину".
+> Видео к прохождению теста "Проверка поиска товара по одному слову".
 <p align="center">
   <img title="Selenoid Video" src="images/video/Peek 2024-03-25 19-05.gif">
 </p>
