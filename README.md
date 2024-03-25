@@ -113,3 +113,10 @@ gradle clean smoke
 <p align="center">
 <img title="Telegram Notifications" src="images/screenshots/2024-03-21_12-01.png">
 
+<a id="video"></a>
+## <img src="images/logo/Selenoid.svg" width="25" height="25"/></a> Пример прогона теста в Selenoid
+
+> Видео к прохождению теста "Добавление игры в корзину".
+<p align="center">
+  <img title="Selenoid Video" src="images/video/Peek 2024-03-25 19-05.gif">
+</p>

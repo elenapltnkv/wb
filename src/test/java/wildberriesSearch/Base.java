@@ -9,10 +9,10 @@ import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.BeforeEach;
 import org.openqa.selenium.PageLoadStrategy;
 import org.openqa.selenium.remote.DesiredCapabilities;
-
 import java.util.Map;
 
 import static com.codeborne.selenide.Selenide.closeWebDriver;
+
 
 public class Base {
     @BeforeAll

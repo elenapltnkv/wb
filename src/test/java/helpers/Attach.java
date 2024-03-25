@@ -5,10 +5,9 @@ import com.codeborne.selenide.Selenide;
 
 import io.qameta.allure.Attachment;
 
-import org.apache.commons.io.FileUtils;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
-import org.openqa.selenium.remote.RemoteWebDriver;
+
 
 import java.net.MalformedURLException;
 import java.net.URL;
@@ -63,6 +62,7 @@ public class Attach {
         }
         return null;
     }
+
 
 
 }
