@@ -26,7 +26,7 @@ public class Base {
         DesiredCapabilities capabilities = new DesiredCapabilities();
         capabilities.setCapability("selenoid:options", Map.<String, Object>of(
                 "enableVNC", true,
-                "enableVideo", false
+                "enableVideo", true
         ));
 
         Configuration.browserCapabilities = capabilities;
